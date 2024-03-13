@@ -134,5 +134,5 @@ setup(
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
     ],
     install_requires=[
-        'torch==1.12.1+cu116']
+        'torch']
 )
