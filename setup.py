@@ -13,8 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 import os
-
-os.system('pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu116')
 from setuptools import setup, Extension, find_packages
 import subprocess
 
@@ -135,4 +133,6 @@ setup(
         'Programming Language :: Python :: 3.9,'
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
     ],
+    install_requires=[
+        'torch==1.12.1+cu116']
 )
